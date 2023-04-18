@@ -11,7 +11,7 @@ source_folder = r"./"
 # TODO Full path to the destination folder
 destination_folder = r"./Destination Folder"
 # TODO Full path to the Excel file
-excel_file = r"./picture_list.xlsx"
+excel_file = r"./filenames_list.xlsx"
 # TODO Name of the column in the excel file containing the file names
 column_name = "Filename"
 
