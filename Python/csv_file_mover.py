@@ -17,7 +17,7 @@ csv_file = r"./picture_list.csv"
 if not os.path.exists(destination_folder):
     os.makedirs(destination_folder)
 
-# ? Move each image from the source folder to the destination folder if its file name is in the CSV file
+# ? Move each files from the source folder to the destination folder if its file name is in the CSV file
 with open(csv_file, "r") as f:
     reader = csv.reader(f)
     for row in reader:

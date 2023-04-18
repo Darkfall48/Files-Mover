@@ -19,7 +19,7 @@ column_name = "Filename"
 if not os.path.exists(destination_folder):
     os.makedirs(destination_folder)
 
-# ? Move each image from the source folder to the destination folder if its file name is in the Excel file
+# ? Move each files from the source folder to the destination folder if its file name is in the Excel file
 df = pd.read_excel(excel_file)
 for file_name in df[column_name]:
     source_file = os.path.join(source_folder, file_name)
