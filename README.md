@@ -1,8 +1,8 @@
 # Files Mover
 
-This code allows you to move or copy a list of files from a source folder to a destination folder using an Excel, CSV, or TXT file as the list of file names.
-It creates the destination folder if it doesn't exist and displays an error message for any file in the list that is not found in the source folder.
-It can handle any type of file.
+- This code allows you to move or copy a list of files from a source folder to a destination folder using an Excel, CSV, or TXT file as the list of file names.
+- It creates the destination folder if it doesn't exist and displays an error message for any file in the list that is not found in the source folder.
+- It can handle any type of file.
 
 # Instructions
 
