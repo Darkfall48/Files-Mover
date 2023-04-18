@@ -6,8 +6,7 @@
 
 # Instructions
 
-## Python
-### CSV File
+## CSV File
 
 1. Modify the `source_folder`, `destination_folder`, and `csv_file` variables in the code to your desired file paths.
 2. To execute the script, run the command:
@@ -15,7 +14,7 @@
 python csv_file_mover.py
 ```
 
-### Excel File
+## Excel File
 
 1. Modify the `source_folder`, `destination_folder`, `excel_file`, and `column_name` variables in the code to your desired file paths and column name.
 2. Install the `pandas` and `openpyxl` libraries if it's not already installed by running:
